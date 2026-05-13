@@ -113,7 +113,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CifradoRSA.cpp" />
     <ClCompile Include="FormPrincipal.cpp" />
+    <ClCompile Include="MatematicaRSA.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -123,9 +125,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CifradoRSA.h" />
     <ClInclude Include="FormPrincipal.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="MatematicaRSA.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormPrincipal.resx">
