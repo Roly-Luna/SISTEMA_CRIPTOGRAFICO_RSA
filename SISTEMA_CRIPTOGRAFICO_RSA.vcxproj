@@ -114,6 +114,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CifradoRSA.cpp" />
+    <ClCompile Include="FormDesencriptar.cpp" />
+    <ClCompile Include="FormEncriptar.cpp" />
     <ClCompile Include="FormPrincipal.cpp" />
     <ClCompile Include="MatematicaRSA.cpp" />
   </ItemGroup>
@@ -126,12 +128,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CifradoRSA.h" />
+    <ClInclude Include="FormDesencriptar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FormEncriptar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="FormPrincipal.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MatematicaRSA.h" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormDesencriptar.resx">
+      <DependentUpon>FormDesencriptar.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.h</DependentUpon>
     </EmbeddedResource>

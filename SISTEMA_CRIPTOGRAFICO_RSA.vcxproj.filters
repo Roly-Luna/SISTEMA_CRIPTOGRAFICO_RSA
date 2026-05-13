@@ -24,6 +24,12 @@
     <ClCompile Include="CifradoRSA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FormEncriptar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormDesencriptar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FormPrincipal.h">
@@ -33,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CifradoRSA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormEncriptar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormDesencriptar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
