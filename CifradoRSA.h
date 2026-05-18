@@ -3,7 +3,7 @@
 
 class CifradoRSA {
 private:
-    // Función de exponenciación modular para evitar el desbordamiento de memoria en C++
+    // Funcion de exponenciacion modular para evitar el desbordamiento de memoria en C++
     static long long exponenciacion_modular(long long base, long long exp, long long mod);
 public:
     static map<char, int> generar_diccionario();

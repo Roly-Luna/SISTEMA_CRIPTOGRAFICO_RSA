@@ -36,7 +36,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			}
 		}
 
-		// Declaración de los elementos de la interfaz
+		// Declaracion de los elementos de la interfaz
 	private: System::Windows::Forms::Label^ lblTitulo;
 	private: System::Windows::Forms::Button^ btnEncriptar;
 	private: System::Windows::Forms::Button^ btnDesencriptar;

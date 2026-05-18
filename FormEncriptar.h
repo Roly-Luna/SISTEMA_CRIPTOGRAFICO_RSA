@@ -32,7 +32,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			}
 		}
 
-		// Declaración de controles de la UI
+		// Declaracion de controles de la UI
 	private: System::Windows::Forms::Label^ lblMensaje;
 	private: System::Windows::Forms::TextBox^ txtMensaje;
 	private: System::Windows::Forms::Label^ lblPrimos;
@@ -128,7 +128,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->lblDetalles->Name = L"lblDetalles";
 			this->lblDetalles->Size = System::Drawing::Size(150, 13);
 			this->lblDetalles->TabIndex = 8;
-			this->lblDetalles->Text = L"Módulo n: -- | Función phi(n): --";
+			this->lblDetalles->Text = L"Modulo n: -- | Funcion phi(n): --";
 			// 
 			// lblE
 			// 
@@ -229,7 +229,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->Controls->Add(this->lblMensaje);
 			this->Name = L"FormEncriptar";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Fase de Encriptación RSA";
+			this->Text = L"Fase de Encriptacion RSA";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -264,11 +264,11 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			phi_global = (p - 1) * (q - 1);
 
 			if (n_global <= 26) {
-				MessageBox::Show("El módulo n (" + n_global + ") es muy pequeño. Debe ser mayor a 26. Intenta con primos más grandes.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
+				MessageBox::Show("El modulo n (" + n_global + ") es muy pequeño. Debe ser mayor a 26. Intenta con primos más grandes.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
 				return;
 			}
 
-			lblDetalles->Text = "Módulo n: " + n_global + " | Función phi(n): " + phi_global;
+			lblDetalles->Text = "Modulo n: " + n_global + " | Funcion phi(n): " + phi_global;
 
 			// Cargar opciones de 'e'
 			std::vector<int> opciones_e = MatematicaRSA::obtener_posibles_e(phi_global);
@@ -337,7 +337,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			sw->WriteLine("=== SISTEMA RSA ===");
 			sw->WriteLine("Mensaje Cifrado: " + txtResultado->Text);
 			sw->WriteLine("Clave Privada sugerida (d): " + comboD->SelectedItem->ToString());
-			sw->WriteLine("Módulo (n): " + n_global.ToString());
+			sw->WriteLine("Modulo (n): " + n_global.ToString());
 			sw->Close();
 			MessageBox::Show("¡Archivo guardado con éxito! Ya puedes compartirlo.", "Guardado", MessageBoxButtons::OK, MessageBoxIcon::Information);
 		}

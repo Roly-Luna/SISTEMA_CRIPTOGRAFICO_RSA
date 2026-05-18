@@ -103,7 +103,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->lblModuloN->Location = System::Drawing::Point(180, 140);
 			this->lblModuloN->Name = L"lblModuloN";
 			this->lblModuloN->Size = System::Drawing::Size(110, 13);
-			this->lblModuloN->Text = L"3. Ingrese Módulo (n):";
+			this->lblModuloN->Text = L"3. Ingrese Modulo (n):";
 
 			// txtN
 			this->txtN->Location = System::Drawing::Point(180, 160);
@@ -160,7 +160,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->Controls->Add(this->lblInstruccion1);
 			this->Name = L"FormDesencriptar";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Fase de Desencriptación RSA";
+			this->Text = L"Fase de Desencriptacion RSA";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 		}
@@ -190,7 +190,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 				sr->Close();
 
 				txtMensajeCifrado->Text = contenido;
-				MessageBox::Show("Archivo cargado. Asegúrate de borrar el texto innecesario y dejar solo los NÚMEROS en la primera caja. Luego ingresa 'd' y 'n' en sus casillas.", "Instrucción", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				MessageBox::Show("Archivo cargado. Asegúrate de borrar el texto innecesario y dejar solo los NÚMEROS en la primera caja. Luego ingresa 'd' y 'n' en sus casillas.", "Instruccion", MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 			catch (Exception^) {
 				MessageBox::Show("Error al intentar leer el archivo.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
@@ -232,7 +232,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 
 		}
 		catch (Exception^) {
-			MessageBox::Show("Error en el formato. Asegúrate de que el mensaje cifrado contenga SOLO números separados por espacios, y que 'd' y 'n' sean valores numéricos correctos.", "Error de Desencriptación", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			MessageBox::Show("Error en el formato. Asegúrate de que el mensaje cifrado contenga SOLO números separados por espacios, y que 'd' y 'n' sean valores numéricos correctos.", "Error de Desencriptacion", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
 	}
 
