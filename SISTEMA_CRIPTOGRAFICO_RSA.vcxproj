@@ -144,6 +144,9 @@
     <EmbeddedResource Include="FormDesencriptar.resx">
       <DependentUpon>FormDesencriptar.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEncriptar.resx">
+      <DependentUpon>FormEncriptar.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.h</DependentUpon>
     </EmbeddedResource>
