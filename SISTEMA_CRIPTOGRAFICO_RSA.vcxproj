@@ -138,6 +138,7 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MatematicaRSA.h" />
+    <ClInclude Include="Recursos.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormDesencriptar.resx">
