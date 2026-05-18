@@ -66,67 +66,71 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// lblTitulo
 			// 
 			this->lblTitulo->AutoSize = true;
-			this->lblTitulo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 24, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->lblTitulo->Font = (gcnew System::Drawing::Font(L"Adobe Devanagari", 27.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+			this->lblTitulo->ForeColor = System::Drawing::Color::Red;
 			this->lblTitulo->Location = System::Drawing::Point(110, 40);
 			this->lblTitulo->Name = L"lblTitulo";
-			this->lblTitulo->Size = System::Drawing::Size(500, 37);
+			this->lblTitulo->Size = System::Drawing::Size(510, 50);
 			this->lblTitulo->TabIndex = 0;
 			this->lblTitulo->Text = L"SISTEMA CRIPTOGRÁFICO RSA";
 			// 
 			// btnEncriptar
 			// 
-			this->btnEncriptar->BackColor = System::Drawing::Color::SteelBlue;
-			this->btnEncriptar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnEncriptar->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(64)),
+				static_cast<System::Int32>(static_cast<System::Byte>(0)));
+			this->btnEncriptar->Font = (gcnew System::Drawing::Font(L"Consolas", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnEncriptar->ForeColor = System::Drawing::Color::White;
-			this->btnEncriptar->Location = System::Drawing::Point(220, 120);
+			this->btnEncriptar->Location = System::Drawing::Point(220, 110);
 			this->btnEncriptar->Name = L"btnEncriptar";
-			this->btnEncriptar->Size = System::Drawing::Size(280, 60);
+			this->btnEncriptar->Size = System::Drawing::Size(260, 60);
 			this->btnEncriptar->TabIndex = 1;
-			this->btnEncriptar->Text = L"[1] ENCRIPTAR MENSAJE";
+			this->btnEncriptar->Text = L"ENCRIPTAR MENSAJE";
 			this->btnEncriptar->UseVisualStyleBackColor = false;
 			this->btnEncriptar->Click += gcnew System::EventHandler(this, &FormPrincipal::btnEncriptar_Click);
 			// 
 			// btnDesencriptar
 			// 
-			this->btnDesencriptar->BackColor = System::Drawing::Color::SteelBlue;
-			this->btnDesencriptar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnDesencriptar->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(0)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->btnDesencriptar->Font = (gcnew System::Drawing::Font(L"Consolas", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnDesencriptar->ForeColor = System::Drawing::Color::White;
-			this->btnDesencriptar->Location = System::Drawing::Point(220, 200);
+			this->btnDesencriptar->Location = System::Drawing::Point(155, 185);
 			this->btnDesencriptar->Name = L"btnDesencriptar";
-			this->btnDesencriptar->Size = System::Drawing::Size(280, 60);
+			this->btnDesencriptar->Size = System::Drawing::Size(381, 60);
 			this->btnDesencriptar->TabIndex = 2;
-			this->btnDesencriptar->Text = L"[2] DESENCRIPTAR DESDE ARCHIVO";
+			this->btnDesencriptar->Text = L"DESENCRIPTAR DESDE ARCHIVO";
 			this->btnDesencriptar->UseVisualStyleBackColor = false;
 			this->btnDesencriptar->Click += gcnew System::EventHandler(this, &FormPrincipal::btnDesencriptar_Click);
 			// 
 			// btnInstrucciones
 			// 
-			this->btnInstrucciones->BackColor = System::Drawing::Color::SteelBlue;
-			this->btnInstrucciones->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnInstrucciones->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(0)), static_cast<System::Int32>(static_cast<System::Byte>(192)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->btnInstrucciones->Font = (gcnew System::Drawing::Font(L"Consolas", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnInstrucciones->ForeColor = System::Drawing::Color::White;
-			this->btnInstrucciones->Location = System::Drawing::Point(220, 280);
+			this->btnInstrucciones->Location = System::Drawing::Point(262, 262);
 			this->btnInstrucciones->Name = L"btnInstrucciones";
-			this->btnInstrucciones->Size = System::Drawing::Size(280, 60);
+			this->btnInstrucciones->Size = System::Drawing::Size(194, 60);
 			this->btnInstrucciones->TabIndex = 3;
-			this->btnInstrucciones->Text = L"[3] INSTRUCCIONES";
+			this->btnInstrucciones->Text = L"INSTRUCCIONES";
 			this->btnInstrucciones->UseVisualStyleBackColor = false;
 			this->btnInstrucciones->Click += gcnew System::EventHandler(this, &FormPrincipal::btnInstrucciones_Click);
 			// 
 			// btnSalir
 			// 
-			this->btnSalir->BackColor = System::Drawing::Color::Brown;
-			this->btnSalir->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+			this->btnSalir->BackColor = System::Drawing::Color::Maroon;
+			this->btnSalir->Font = (gcnew System::Drawing::Font(L"Consolas", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnSalir->ForeColor = System::Drawing::Color::White;
-			this->btnSalir->Location = System::Drawing::Point(220, 360);
+			this->btnSalir->Location = System::Drawing::Point(220, 337);
 			this->btnSalir->Name = L"btnSalir";
 			this->btnSalir->Size = System::Drawing::Size(280, 60);
 			this->btnSalir->TabIndex = 4;
-			this->btnSalir->Text = L"[4] SALIR DEL SISTEMA";
+			this->btnSalir->Text = L"SALIR DEL SISTEMA";
 			this->btnSalir->UseVisualStyleBackColor = false;
 			this->btnSalir->Click += gcnew System::EventHandler(this, &FormPrincipal::btnSalir_Click);
 			// 
