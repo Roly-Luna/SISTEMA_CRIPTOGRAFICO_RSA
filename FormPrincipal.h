@@ -71,7 +71,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(657, 449);
+			this->ClientSize = System::Drawing::Size(724, 488);
 			this->Controls->Add(this->btn_Sistema_RSA);
 			this->Name = L"FormPrincipal";
 			this->Text = L"FormPrincipal";
