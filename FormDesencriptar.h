@@ -69,7 +69,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->lblInstruccion1->Location = System::Drawing::Point(20, 20);
 			this->lblInstruccion1->Name = L"lblInstruccion1";
 			this->lblInstruccion1->Size = System::Drawing::Size(300, 13);
-			this->lblInstruccion1->Text = L"1. Pegue el mensaje cifrado (números) o cargue el archivo TXT:";
+			this->lblInstruccion1->Text = L"1. Pegue el mensaje cifrado (numeros) o cargue el archivo TXT:";
 
 			// txtMensajeCifrado
 			this->txtMensajeCifrado->Location = System::Drawing::Point(20, 40);
@@ -139,7 +139,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->btnVolver->Location = System::Drawing::Point(370, 350);
 			this->btnVolver->Name = L"btnVolver";
 			this->btnVolver->Size = System::Drawing::Size(120, 30);
-			this->btnVolver->Text = L"Volver al Menú";
+			this->btnVolver->Text = L"Volver al Menu";
 			this->btnVolver->UseVisualStyleBackColor = true;
 			this->btnVolver->Click += gcnew System::EventHandler(this, &FormDesencriptar::btnVolver_Click);
 
@@ -190,7 +190,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 				sr->Close();
 
 				txtMensajeCifrado->Text = contenido;
-				MessageBox::Show("Archivo cargado. Asegúrate de borrar el texto innecesario y dejar solo los NÚMEROS en la primera caja. Luego ingresa 'd' y 'n' en sus casillas.", "Instruccion", MessageBoxButtons::OK, MessageBoxIcon::Information);
+				MessageBox::Show("Archivo cargado. Asegurate de borrar el texto innecesario y dejar solo los NuMEROS en la primera caja. Luego ingresa 'd' y 'n' en sus casillas.", "Instruccion", MessageBoxButtons::OK, MessageBoxIcon::Information);
 			}
 			catch (Exception^) {
 				MessageBox::Show("Error al intentar leer el archivo.", "Error", MessageBoxButtons::OK, MessageBoxIcon::Error);
@@ -224,7 +224,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 					mensajeOriginal += alfabeto[(int)m_val];
 				}
 				else {
-					mensajeOriginal += "?"; // En caso de que el cálculo falle o las claves sean incorrectas
+					mensajeOriginal += "?"; // En caso de que el calculo falle o las claves sean incorrectas
 				}
 			}
 
@@ -232,7 +232,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 
 		}
 		catch (Exception^) {
-			MessageBox::Show("Error en el formato. Asegúrate de que el mensaje cifrado contenga SOLO números separados por espacios, y que 'd' y 'n' sean valores numéricos correctos.", "Error de Desencriptacion", MessageBoxButtons::OK, MessageBoxIcon::Error);
+			MessageBox::Show("Error en el formato. Asegurate de que el mensaje cifrado contenga SOLO numeros separados por espacios, y que 'd' y 'n' sean valores numéricos correctos.", "Error de Desencriptacion", MessageBoxButtons::OK, MessageBoxIcon::Error);
 		}
 	}
 

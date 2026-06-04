@@ -116,6 +116,7 @@
     <ClCompile Include="CifradoRSA.cpp" />
     <ClCompile Include="FormDesencriptar.cpp" />
     <ClCompile Include="FormEncriptar.cpp" />
+    <ClCompile Include="FormLogin.cpp" />
     <ClCompile Include="FormPrincipal.cpp" />
     <ClCompile Include="MatematicaRSA.cpp" />
   </ItemGroup>
@@ -132,6 +133,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="FormEncriptar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FormLogin.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="FormPrincipal.h">

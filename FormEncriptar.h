@@ -353,6 +353,5 @@ namespace SISTEMACRIPTOGRAFICORSA {
 		}
 		this->Close();
 	}
-
 	};
 }

@@ -30,6 +30,9 @@
     <ClCompile Include="FormDesencriptar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FormLogin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FormPrincipal.h">
@@ -48,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Recursos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormLogin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
