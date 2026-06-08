@@ -8,6 +8,7 @@ bool MatematicaRSA::es_primo(int numero) {
     return true;
 }
 
+// Calcular el MCD
 int MatematicaRSA::calcular_mcd(int a, int b) {
     while (b != 0) {
         int resto = a % b;
