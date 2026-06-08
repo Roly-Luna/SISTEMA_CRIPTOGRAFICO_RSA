@@ -361,12 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/FormDesencriptar.h
-/FormDesencriptar.resx
-/FormEncriptar.h
-/FormEncriptar.resx
-/FormPrincipal.h
-/FormPrincipal.resx
-/FormLogin.resx
-/SISTEMA_CRIPTOGRAFICO_RSA.vcxproj
-/FormLogin.h
