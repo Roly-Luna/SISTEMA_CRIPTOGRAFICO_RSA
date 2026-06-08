@@ -359,14 +359,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# Fody - auto-generated XML schema
-FodyWeavers.xsd
-/FormDesencriptar.h
-/FormDesencriptar.resx
-/FormEncriptar.h
-/FormEncriptar.resx
-/FormPrincipal.h
-/FormPrincipal.resx
-/FormLogin.resx
-/SISTEMA_CRIPTOGRAFICO_RSA.vcxproj
-/FormLogin.h
+
