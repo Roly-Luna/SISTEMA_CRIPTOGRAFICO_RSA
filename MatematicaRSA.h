@@ -1,6 +1,7 @@
 #pragma once
 #include "Recursos.h"
 
+// clase mate
 class MatematicaRSA {
 public:
     static bool es_primo(int numero);
