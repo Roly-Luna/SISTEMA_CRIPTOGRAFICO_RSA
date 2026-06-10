@@ -74,29 +74,26 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// lblInstruccion1
 			// 
 			this->lblInstruccion1->AutoSize = true;
-			this->lblInstruccion1->Location = System::Drawing::Point(30, 31);
-			this->lblInstruccion1->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->lblInstruccion1->Location = System::Drawing::Point(20, 20);
 			this->lblInstruccion1->Name = L"lblInstruccion1";
-			this->lblInstruccion1->Size = System::Drawing::Size(453, 20);
+			this->lblInstruccion1->Size = System::Drawing::Size(308, 13);
 			this->lblInstruccion1->TabIndex = 10;
 			this->lblInstruccion1->Text = L"1. Pegue el mensaje cifrado (números) o cargue el archivo TXT:";
 			// 
 			// txtMensajeCifrado
 			// 
-			this->txtMensajeCifrado->Location = System::Drawing::Point(30, 62);
-			this->txtMensajeCifrado->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->txtMensajeCifrado->Location = System::Drawing::Point(20, 40);
 			this->txtMensajeCifrado->Multiline = true;
 			this->txtMensajeCifrado->Name = L"txtMensajeCifrado";
 			this->txtMensajeCifrado->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
-			this->txtMensajeCifrado->Size = System::Drawing::Size(493, 121);
+			this->txtMensajeCifrado->Size = System::Drawing::Size(330, 80);
 			this->txtMensajeCifrado->TabIndex = 9;
 			// 
 			// btnCargarTxt
 			// 
-			this->btnCargarTxt->Location = System::Drawing::Point(572, 62);
-			this->btnCargarTxt->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->btnCargarTxt->Location = System::Drawing::Point(381, 40);
 			this->btnCargarTxt->Name = L"btnCargarTxt";
-			this->btnCargarTxt->Size = System::Drawing::Size(180, 46);
+			this->btnCargarTxt->Size = System::Drawing::Size(120, 30);
 			this->btnCargarTxt->TabIndex = 8;
 			this->btnCargarTxt->Text = L"Cargar TXT";
 			this->btnCargarTxt->UseVisualStyleBackColor = true;
@@ -105,37 +102,33 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// lblClaveD
 			// 
 			this->lblClaveD->AutoSize = true;
-			this->lblClaveD->Location = System::Drawing::Point(30, 215);
-			this->lblClaveD->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->lblClaveD->Location = System::Drawing::Point(20, 140);
 			this->lblClaveD->Name = L"lblClaveD";
-			this->lblClaveD->Size = System::Drawing::Size(206, 20);
+			this->lblClaveD->Size = System::Drawing::Size(141, 13);
 			this->lblClaveD->TabIndex = 7;
 			this->lblClaveD->Text = L"2. Ingrese Clave Privada (d):";
 			// 
 			// txtD
 			// 
-			this->txtD->Location = System::Drawing::Point(30, 246);
-			this->txtD->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->txtD->Location = System::Drawing::Point(20, 160);
 			this->txtD->Name = L"txtD";
-			this->txtD->Size = System::Drawing::Size(148, 26);
+			this->txtD->Size = System::Drawing::Size(100, 20);
 			this->txtD->TabIndex = 6;
 			// 
 			// lblModuloN
 			// 
 			this->lblModuloN->AutoSize = true;
-			this->lblModuloN->Location = System::Drawing::Point(270, 215);
-			this->lblModuloN->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->lblModuloN->Location = System::Drawing::Point(180, 140);
 			this->lblModuloN->Name = L"lblModuloN";
-			this->lblModuloN->Size = System::Drawing::Size(163, 20);
+			this->lblModuloN->Size = System::Drawing::Size(110, 13);
 			this->lblModuloN->TabIndex = 5;
 			this->lblModuloN->Text = L"3. Ingrese Modulo (n):";
 			// 
 			// txtN
 			// 
-			this->txtN->Location = System::Drawing::Point(270, 246);
-			this->txtN->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->txtN->Location = System::Drawing::Point(180, 160);
 			this->txtN->Name = L"txtN";
-			this->txtN->Size = System::Drawing::Size(148, 26);
+			this->txtN->Size = System::Drawing::Size(100, 20);
 			this->txtN->TabIndex = 4;
 			// 
 			// btnDesencriptar
@@ -144,10 +137,9 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->btnDesencriptar->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->btnDesencriptar->ForeColor = System::Drawing::Color::White;
-			this->btnDesencriptar->Location = System::Drawing::Point(30, 308);
-			this->btnDesencriptar->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->btnDesencriptar->Location = System::Drawing::Point(20, 200);
 			this->btnDesencriptar->Name = L"btnDesencriptar";
-			this->btnDesencriptar->Size = System::Drawing::Size(705, 54);
+			this->btnDesencriptar->Size = System::Drawing::Size(470, 35);
 			this->btnDesencriptar->TabIndex = 3;
 			this->btnDesencriptar->Text = L"DESENCRIPTAR MENSAJE";
 			this->btnDesencriptar->UseVisualStyleBackColor = false;
@@ -156,29 +148,26 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// lblResultado
 			// 
 			this->lblResultado->AutoSize = true;
-			this->lblResultado->Location = System::Drawing::Point(30, 385);
-			this->lblResultado->Margin = System::Windows::Forms::Padding(4, 0, 4, 0);
+			this->lblResultado->Location = System::Drawing::Point(20, 250);
 			this->lblResultado->Name = L"lblResultado";
-			this->lblResultado->Size = System::Drawing::Size(130, 20);
+			this->lblResultado->Size = System::Drawing::Size(88, 13);
 			this->lblResultado->TabIndex = 2;
 			this->lblResultado->Text = L"Mensaje Original:";
 			// 
 			// txtResultado
 			// 
-			this->txtResultado->Location = System::Drawing::Point(30, 415);
-			this->txtResultado->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->txtResultado->Location = System::Drawing::Point(20, 270);
 			this->txtResultado->Multiline = true;
 			this->txtResultado->Name = L"txtResultado";
 			this->txtResultado->ReadOnly = true;
-			this->txtResultado->Size = System::Drawing::Size(703, 90);
+			this->txtResultado->Size = System::Drawing::Size(470, 60);
 			this->txtResultado->TabIndex = 1;
 			// 
 			// btnVolver
 			// 
-			this->btnVolver->Location = System::Drawing::Point(555, 538);
-			this->btnVolver->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->btnVolver->Location = System::Drawing::Point(370, 350);
 			this->btnVolver->Name = L"btnVolver";
-			this->btnVolver->Size = System::Drawing::Size(180, 46);
+			this->btnVolver->Size = System::Drawing::Size(120, 30);
 			this->btnVolver->TabIndex = 0;
 			this->btnVolver->Text = L"Volver al Menú";
 			this->btnVolver->UseVisualStyleBackColor = true;
@@ -187,9 +176,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(593, 235);
+			this->pictureBox1->Location = System::Drawing::Point(395, 153);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(126, 65);
+			this->pictureBox1->Size = System::Drawing::Size(84, 42);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 11;
 			this->pictureBox1->TabStop = false;
@@ -197,18 +187,19 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(593, 116);
+			this->pictureBox2->Location = System::Drawing::Point(395, 75);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(126, 71);
+			this->pictureBox2->Size = System::Drawing::Size(84, 46);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 12;
 			this->pictureBox2->TabStop = false;
 			// 
 			// FormDesencriptar
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(780, 615);
+			this->ClientSize = System::Drawing::Size(520, 400);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->btnVolver);
@@ -222,7 +213,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->Controls->Add(this->btnCargarTxt);
 			this->Controls->Add(this->txtMensajeCifrado);
 			this->Controls->Add(this->lblInstruccion1);
-			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"FormDesencriptar";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Fase de Desencriptacion RSA";

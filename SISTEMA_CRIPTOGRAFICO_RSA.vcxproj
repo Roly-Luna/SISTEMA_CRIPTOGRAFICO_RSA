@@ -110,6 +110,8 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -143,6 +145,7 @@
     </ClInclude>
     <ClInclude Include="MatematicaRSA.h" />
     <ClInclude Include="Recursos.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormDesencriptar.resx">
@@ -157,6 +160,12 @@
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SISTEMA_CRIPTOGRAFICO_RSA.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Downloads\RSAicon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

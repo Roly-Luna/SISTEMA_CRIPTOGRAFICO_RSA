@@ -64,29 +64,26 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// 
 			// txtUsuario
 			// 
-			this->txtUsuario->Location = System::Drawing::Point(118, 233);
-			this->txtUsuario->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->txtUsuario->Location = System::Drawing::Point(79, 151);
 			this->txtUsuario->Name = L"txtUsuario";
-			this->txtUsuario->Size = System::Drawing::Size(298, 26);
+			this->txtUsuario->Size = System::Drawing::Size(200, 20);
 			this->txtUsuario->TabIndex = 4;
 			// 
 			// txtContrasena
 			// 
-			this->txtContrasena->Location = System::Drawing::Point(118, 326);
-			this->txtContrasena->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->txtContrasena->Location = System::Drawing::Point(79, 212);
 			this->txtContrasena->Name = L"txtContrasena";
 			this->txtContrasena->PasswordChar = '*';
-			this->txtContrasena->Size = System::Drawing::Size(298, 26);
+			this->txtContrasena->Size = System::Drawing::Size(200, 20);
 			this->txtContrasena->TabIndex = 2;
 			// 
 			// btnIngresar
 			// 
 			this->btnIngresar->BackColor = System::Drawing::Color::SeaGreen;
 			this->btnIngresar->ForeColor = System::Drawing::Color::White;
-			this->btnIngresar->Location = System::Drawing::Point(118, 403);
-			this->btnIngresar->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->btnIngresar->Location = System::Drawing::Point(79, 262);
 			this->btnIngresar->Name = L"btnIngresar";
-			this->btnIngresar->Size = System::Drawing::Size(135, 46);
+			this->btnIngresar->Size = System::Drawing::Size(90, 30);
 			this->btnIngresar->TabIndex = 1;
 			this->btnIngresar->Text = L"Ingresar";
 			this->btnIngresar->UseVisualStyleBackColor = false;
@@ -96,10 +93,9 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// 
 			this->btnSalir->BackColor = System::Drawing::Color::Brown;
 			this->btnSalir->ForeColor = System::Drawing::Color::White;
-			this->btnSalir->Location = System::Drawing::Point(296, 403);
-			this->btnSalir->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->btnSalir->Location = System::Drawing::Point(197, 262);
 			this->btnSalir->Name = L"btnSalir";
-			this->btnSalir->Size = System::Drawing::Size(135, 46);
+			this->btnSalir->Size = System::Drawing::Size(90, 30);
 			this->btnSalir->TabIndex = 0;
 			this->btnSalir->Text = L"Salir";
 			this->btnSalir->UseVisualStyleBackColor = false;
@@ -108,9 +104,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(33, 26);
+			this->pictureBox1->Location = System::Drawing::Point(22, 17);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(505, 139);
+			this->pictureBox1->Size = System::Drawing::Size(337, 90);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 6;
 			this->pictureBox1->TabStop = false;
@@ -118,9 +115,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox4
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(296, 380);
+			this->pictureBox4->Location = System::Drawing::Point(197, 247);
+			this->pictureBox4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(151, 81);
+			this->pictureBox4->Size = System::Drawing::Size(101, 53);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox4->TabIndex = 9;
 			this->pictureBox4->TabStop = false;
@@ -129,9 +127,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(102, 380);
+			this->pictureBox2->Location = System::Drawing::Point(68, 247);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(151, 81);
+			this->pictureBox2->Size = System::Drawing::Size(101, 53);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 10;
 			this->pictureBox2->TabStop = false;
@@ -140,9 +139,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox3
 			// 
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(118, 191);
+			this->pictureBox3->Location = System::Drawing::Point(79, 124);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(162, 34);
+			this->pictureBox3->Size = System::Drawing::Size(108, 22);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox3->TabIndex = 11;
 			this->pictureBox3->TabStop = false;
@@ -150,18 +150,19 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox5
 			// 
 			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
-			this->pictureBox5->Location = System::Drawing::Point(118, 267);
+			this->pictureBox5->Location = System::Drawing::Point(79, 174);
+			this->pictureBox5->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox5->Name = L"pictureBox5";
-			this->pictureBox5->Size = System::Drawing::Size(200, 51);
+			this->pictureBox5->Size = System::Drawing::Size(133, 33);
 			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox5->TabIndex = 12;
 			this->pictureBox5->TabStop = false;
 			// 
 			// FormLogin
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(582, 488);
+			this->ClientSize = System::Drawing::Size(388, 317);
 			this->Controls->Add(this->pictureBox5);
 			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->pictureBox2);
@@ -171,7 +172,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->Controls->Add(this->btnIngresar);
 			this->Controls->Add(this->txtContrasena);
 			this->Controls->Add(this->txtUsuario);
-			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"FormLogin";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Acceso";

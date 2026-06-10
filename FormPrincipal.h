@@ -96,9 +96,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(184, 66);
+			this->pictureBox1->Location = System::Drawing::Point(123, 43);
+			this->pictureBox1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(731, 208);
+			this->pictureBox1->Size = System::Drawing::Size(487, 135);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 5;
 			this->pictureBox1->TabStop = false;
@@ -106,9 +107,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox2
 			// 
 			this->pictureBox2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox2.Image")));
-			this->pictureBox2->Location = System::Drawing::Point(12, 558);
+			this->pictureBox2->Location = System::Drawing::Point(8, 363);
+			this->pictureBox2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(245, 128);
+			this->pictureBox2->Size = System::Drawing::Size(163, 83);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 6;
 			this->pictureBox2->TabStop = false;
@@ -117,9 +119,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox3
 			// 
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox3.Image")));
-			this->pictureBox3->Location = System::Drawing::Point(263, 558);
+			this->pictureBox3->Location = System::Drawing::Point(175, 363);
+			this->pictureBox3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox3->Name = L"pictureBox3";
-			this->pictureBox3->Size = System::Drawing::Size(245, 128);
+			this->pictureBox3->Size = System::Drawing::Size(163, 83);
 			this->pictureBox3->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox3->TabIndex = 7;
 			this->pictureBox3->TabStop = false;
@@ -128,9 +131,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox4
 			// 
 			this->pictureBox4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox4.Image")));
-			this->pictureBox4->Location = System::Drawing::Point(780, 558);
+			this->pictureBox4->Location = System::Drawing::Point(520, 363);
+			this->pictureBox4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox4->Name = L"pictureBox4";
-			this->pictureBox4->Size = System::Drawing::Size(257, 128);
+			this->pictureBox4->Size = System::Drawing::Size(171, 83);
 			this->pictureBox4->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox4->TabIndex = 8;
 			this->pictureBox4->TabStop = false;
@@ -139,9 +143,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox5
 			// 
 			this->pictureBox5->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox5.Image")));
-			this->pictureBox5->Location = System::Drawing::Point(514, 558);
+			this->pictureBox5->Location = System::Drawing::Point(343, 363);
+			this->pictureBox5->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox5->Name = L"pictureBox5";
-			this->pictureBox5->Size = System::Drawing::Size(260, 128);
+			this->pictureBox5->Size = System::Drawing::Size(173, 83);
 			this->pictureBox5->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox5->TabIndex = 9;
 			this->pictureBox5->TabStop = false;
@@ -150,9 +155,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox7
 			// 
 			this->pictureBox7->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox7.Image")));
-			this->pictureBox7->Location = System::Drawing::Point(291, 393);
+			this->pictureBox7->Location = System::Drawing::Point(194, 255);
+			this->pictureBox7->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox7->Name = L"pictureBox7";
-			this->pictureBox7->Size = System::Drawing::Size(134, 78);
+			this->pictureBox7->Size = System::Drawing::Size(89, 51);
 			this->pictureBox7->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox7->TabIndex = 11;
 			this->pictureBox7->TabStop = false;
@@ -160,9 +166,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox6
 			// 
 			this->pictureBox6->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox6.Image")));
-			this->pictureBox6->Location = System::Drawing::Point(487, 393);
+			this->pictureBox6->Location = System::Drawing::Point(325, 255);
+			this->pictureBox6->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox6->Name = L"pictureBox6";
-			this->pictureBox6->Size = System::Drawing::Size(119, 78);
+			this->pictureBox6->Size = System::Drawing::Size(79, 51);
 			this->pictureBox6->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox6->TabIndex = 12;
 			this->pictureBox6->TabStop = false;
@@ -170,9 +177,10 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox8
 			// 
 			this->pictureBox8->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox8.Image")));
-			this->pictureBox8->Location = System::Drawing::Point(655, 369);
+			this->pictureBox8->Location = System::Drawing::Point(437, 240);
+			this->pictureBox8->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox8->Name = L"pictureBox8";
-			this->pictureBox8->Size = System::Drawing::Size(131, 118);
+			this->pictureBox8->Size = System::Drawing::Size(87, 77);
 			this->pictureBox8->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox8->TabIndex = 13;
 			this->pictureBox8->TabStop = false;
@@ -180,19 +188,20 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			// pictureBox9
 			// 
 			this->pictureBox9->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox9.Image")));
-			this->pictureBox9->Location = System::Drawing::Point(426, 280);
+			this->pictureBox9->Location = System::Drawing::Point(284, 182);
+			this->pictureBox9->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->pictureBox9->Name = L"pictureBox9";
-			this->pictureBox9->Size = System::Drawing::Size(248, 54);
+			this->pictureBox9->Size = System::Drawing::Size(165, 35);
 			this->pictureBox9->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox9->TabIndex = 14;
 			this->pictureBox9->TabStop = false;
 			// 
 			// FormPrincipal
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::WhiteSmoke;
-			this->ClientSize = System::Drawing::Size(1086, 751);
+			this->ClientSize = System::Drawing::Size(724, 488);
 			this->Controls->Add(this->pictureBox9);
 			this->Controls->Add(this->pictureBox8);
 			this->Controls->Add(this->pictureBox6);
@@ -202,7 +211,7 @@ namespace SISTEMACRIPTOGRAFICORSA {
 			this->Controls->Add(this->pictureBox3);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
-			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"FormPrincipal";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Menú Principal - RSA";
